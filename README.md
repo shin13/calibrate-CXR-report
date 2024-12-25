@@ -23,8 +23,7 @@ This project provides a tool to calibrate Chest X-Ray (CXR) reports based on the
 ├── LM Stidio format.json   # Template
 ├── README.md
 ├── app
-│   ├── app.py              # Streamlit app for user 
-interaction
+│   ├── app.py              # Streamlit app for user interaction
 │   ├── config.py
 │   ├── middleware
 │   │   └── exception.py
@@ -99,7 +98,7 @@ The app includes several example pairs of CXR and CT reports. You can access the
 
 If you encounter issues, consider the following steps:
 
-- Ensure both the FastAPI server and the Streamlit app are running.
+- Ensure the LLM server, FastAPI server and the Streamlit app are running.
 - Check the terminal or console for any error messages if the calibration fails.
 - Confirm that the input reports are properly formatted.
 
