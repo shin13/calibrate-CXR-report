@@ -17,12 +17,14 @@ This project provides a tool to calibrate Chest X-Ray (CXR) reports based on the
 
 ## Project Structure
 
+```bash
 .
 ├── LICENSE
 ├── LM Stidio format.json   # Template
 ├── README.md
 ├── app
-│   ├── app.py              # Streamlit app for user interaction
+│   ├── app.py              # Streamlit app for user 
+interaction
 │   ├── config.py
 │   ├── middleware
 │   │   └── exception.py
@@ -30,6 +32,7 @@ This project provides a tool to calibrate Chest X-Ray (CXR) reports based on the
 │       └── report.py       # Data models for input
 ├── main.py                 # Main entry point for starting the FastAPI server
 └── requirements.txt
+```
 
 ## Setup Instructions
 
